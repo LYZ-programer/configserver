@@ -1,0 +1,12 @@
+spring: 
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+port: 111
+---
+spring:
+  profiles: test
+port: 222
